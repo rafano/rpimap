@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-HOSTNAME="http://192.168.1.87:3000/data/systeminfo"
+HOSTNAME="http://localhost:3000/data/systeminfo"
 ID=5
 
 while sleep 30;

@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-HOSTNAME="http://192.168.1.87:3000/data/temperature"
+HOSTNAME="http://localhost:3000/data/temperature"
 ID=5
 
 while sleep 10;

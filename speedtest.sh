@@ -1,5 +1,5 @@
 #!/bin/bash
-HOSTNAME="http://192.168.1.87:3000/data/connection"
+HOSTNAME="http://localhost:3000/data/connection"
 ID=5
 
 while sleep 50;
