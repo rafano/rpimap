@@ -5,7 +5,7 @@ ID=5
 
 while sleep 60;
 do
-uptime=$(uptime | cut -d' ' -f5 | cut -d',' -f1)
+uptime=$(uptime | awk -F'( |,|:)+' '{print $6,$7",",$8,"hours,",$9,"minutes."}')
 load=$(uptime | cut -d' ' -f12 | cut -d',' -f1)
 DATE=$(date +%s) 
 
